@@ -1,0 +1,53 @@
+ASP.NET Core web
+
+Learning Object are:
+- Explore .NET, ASP.NET Core, middleware, routing, and dependency injection.
+- Build REST APIs using Minimal APIs, controllers, and layered architecture
+- Connect applications to PostgreSQL using EF Core and migrations.
+- Implement JWT authentication, authorization, and interactive Blazor features.
+
+Tools and Libraries Used
+- Blazor
+- PostgreSQL
+- ASP.NET Core
+- JWT
+
+Target Audience
+- Backend and web application developers
+- Full-stack developers learning Blazor
+- Software developers transitioning to ASP.NET Core
+
+
+Introduction to ASP.NET Core
+.NET is a free, open-source developer platform created by Microsoft for building modern application
+
+- Multiple programming languages support
+- High performance and scalability
+- Cross-platform development
+- Open-source and community-driven
+- Large ecosystem and tooling support
+
+Evolution of the .NET platform
+2002 - 2016 -2020
+
+Platform, Runtime, SDK and Framework
+- .NET Platform - The ecosystem for building and running application
+- .NET Runtime - Runs apps and manages memory GC, and exceptions
+- .NET SDK - Tools to create build, test, run and publish 
+- Framework - ASP.NET for web, APIs Blazor for interactive web UI
+
+
+Application built with .NET
+- Console applications
+- Desktop application
+- Web application and APIs
+- Mobile applications
+- Cloud-native services
+
+CLI - Command Line Interface
+dotnet --help
+dotnet new list
+dotnet new console -n FirstProject
+dotnet new webapi -n EventHub
+dotnet run
+
