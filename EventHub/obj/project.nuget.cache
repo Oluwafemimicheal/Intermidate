@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ikW8012PBI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\femi4\\OneDrive\\Desktop\\C#\\intermidate\\EventHub\\EventHub.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\femi4\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\femi4\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\femi4\\OneDrive\\Desktop\\C#\\intermidate\\EventHub\\EventHub.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\femi4\\OneDrive\\Desktop\\C#\\intermidate\\EventHub\\EventHub.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
