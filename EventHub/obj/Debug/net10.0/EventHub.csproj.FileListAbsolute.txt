@@ -31,3 +31,4 @@ C:\Users\femi4\OneDrive\Desktop\C#\intermidate\EventHub\obj\Debug\net10.0\refint
 C:\Users\femi4\OneDrive\Desktop\C#\intermidate\EventHub\obj\Debug\net10.0\EventHub.pdb
 C:\Users\femi4\OneDrive\Desktop\C#\intermidate\EventHub\obj\Debug\net10.0\EventHub.genruntimeconfig.cache
 C:\Users\femi4\OneDrive\Desktop\C#\intermidate\EventHub\obj\Debug\net10.0\ref\EventHub.dll
+C:\Users\femi4\OneDrive\Desktop\C#\intermidate\EventHub\obj\Debug\net10.0\EventHub.sourcelink.json

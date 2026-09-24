@@ -51,3 +51,38 @@ dotnet new console -n FirstProject
 dotnet new webapi -n EventHub
 dotnet run
 
+
+Controllers-Based APIs, Attribute Routing, and Model Binding
+Building Structured ASP.NET Core APIs
+
+Structured API Development ->  related operation can be grouped in controller instead of in different files
+
+Restful Request Handling -> controller can handle http actions like creating, reading, updating and deleting data 
+
+Clean Endpoint Mapping -> Every url point is been directed to the action that should handle it
+
+Automatic Data Binding -> ASP.NET help us binding the data directing to action parameters
+
+
+Controllers-Based APIs:
+- Controllers group related API operations
+- Action methods handle specific Request
+- Support GET, POST, PUT, and DELETE
+- Improves code organization ans maintenance
+
+
+Attribute Routing and Route Design
+- Routes are defined using Attribute
+- Maps URLs to action methods
+- Uses HTTP methods like GET, POST, PUT, DELETE
+- Support route parameters
+- Makes endpoints readable and predictable
+
+
+Model Binding
+- Request Data Mapping
+- Automatic parameters Binding
+- JSON Body Binding
+- Cleaner Action methods
+
+
