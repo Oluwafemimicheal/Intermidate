@@ -6,9 +6,9 @@ namespace EventHub.EventControllers;
 [Route("api/[controller]")]
 public class EventsController : ControllerBase
 {
-  private readonly EventService? _eventService;
+  private readonly IEventService? _eventService;
 
-  public EventsController(EventService eventService)
+  public EventsController(IEventService eventService)
   {
     _eventService = eventService;
   }
@@ -22,7 +22,7 @@ public class EventsController : ControllerBase
   [HttpGet("{id}")]
   public IActionResult GetById(int id)
   {
-    var foundEvent = _eventService?.GetAllEvents().FirstOrDefault(e=>e.Id == id);
+    var foundEvent = _eventService?.GetAllEvents().FirstOrDefault(e => e.Id == id);
 
     if (foundEvent == null)
     {
